@@ -1,0 +1,67 @@
+@import '../../styles/colors';
+@import '../../styles/spacing';
+
+.NavigationBar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  &__menu {
+    display: flex;
+
+    &Item {
+      padding: $spacing-sm;
+      margin-left: $spacing-md;
+      display: flex;
+      align-items: center;
+
+      &--external {
+        border-radius: 999px;
+        border: 1.5px solid $primitive-complementary-400;
+        display: flex;
+        margin-left: $spacing-md;
+
+        > a {
+          border-radius: 999px;
+          align-items: center;
+          color: $primitive-complementary-400;
+          display: flex;
+          padding: $spacing-xs $spacing-lg $spacing-xs $spacing-lg;
+
+          > span {
+            align-items: center;
+            display: flex;
+          }
+
+          .material-symbols-outlined {
+            font-size: 16px;
+            margin-left: $spacing-xxs;
+          }
+
+          &:hover {
+            background-color: $primitive-complementary-300;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+
+  &__logo {
+    display: flex;
+    align-items: center;
+
+    &Image {
+      max-height: 38px;
+      width: auto;
+    }
+
+    &Title {
+      padding: $spacing-xs;
+    }
+
+    > h1:hover {
+      text-decoration: none;
+    }
+  }
+}
