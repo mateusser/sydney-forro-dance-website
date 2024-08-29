@@ -2,6 +2,8 @@
 
 [Design](https://www.figma.com/design/OYaEhiBp6FCNf6ReTC3dnZ/SFD_share) made by Hee1ko
 
+This site can be viewed on [this github page](https://mateusser.github.io/sydney-forro-dance-website/).
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
