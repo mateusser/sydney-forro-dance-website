@@ -1,8 +1,8 @@
 import React from 'react'
 
-import founder1 from '../../assets/Hero/founder_1.png'
-import founder2 from '../../assets/Hero/founder_2.png'
-import founder3 from '../../assets/Hero/founder_3.png'
+import founder1 from '../../assets/Hero/founder_1.jpg'
+import founder2 from '../../assets/Hero/founder_2.jpg'
+import founder3 from '../../assets/Hero/founder_3.jpg'
 
 import './styles.scss'
 
