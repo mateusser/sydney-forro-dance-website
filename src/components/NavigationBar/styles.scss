@@ -39,7 +39,8 @@
             margin-left: $spacing-xxs;
           }
 
-          &:hover {
+          &:hover,
+          &:active {
             background-color: $primitive-complementary-300;
             text-decoration: none !important;
           }
@@ -61,7 +62,8 @@
       padding: $spacing-xs;
     }
 
-    > h1:hover {
+    > h1:hover,
+    > h1:active {
       text-decoration: none;
     }
   }

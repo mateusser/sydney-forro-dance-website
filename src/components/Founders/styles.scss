@@ -1,0 +1,15 @@
+@import '../../styles/spacing';
+
+.Founders {
+  display: flex;
+  align-items: center;
+  margin: 0 $spacing-lg;
+
+  &__photo {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    border: solid 4px #ffffff;
+    margin-left: -$spacing-xs;
+  }
+}

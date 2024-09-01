@@ -9,13 +9,13 @@ $cover-img: url('../../assets/Hero/Cover.jpg');
   flex-flow: column;
   justify-content: flex-start;
   padding: $spacing-lg 0;
+  gap: $spacing-xl;
 
   &__title {
     font-size: 87px;
     font-weight: 600;
     letter-spacing: -0.025em;
     line-height: 95.7px;
-    margin-bottom: $spacing-xl;
     text-align: center;
     text-transform: uppercase;
     width: 100%;
@@ -72,5 +72,38 @@ $cover-img: url('../../assets/Hero/Cover.jpg');
         width: 48px;
       }
     }
+
+    &:hover,
+    &:active {
+      background-color: $primitive-primary-700;
+    }
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  &__founders {
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 80px;
+    letter-spacing: -0.025em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  &__values {
+    background-color: $primitive-gray-100;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: row;
+    gap: $spacing-xs;
+    padding: $spacing-md;
+    align-items: stretch;
   }
 }
