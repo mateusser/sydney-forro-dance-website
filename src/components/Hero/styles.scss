@@ -1,0 +1,76 @@
+@import '../../styles/colors';
+@import '../../styles/spacing';
+
+$cover-img: url('../../assets/Hero/Cover.jpg');
+
+.Hero {
+  align-items: stretch;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  padding: $spacing-lg 0;
+
+  &__title {
+    font-size: 87px;
+    font-weight: 600;
+    letter-spacing: -0.025em;
+    line-height: 95.7px;
+    margin-bottom: $spacing-xl;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+  }
+
+  &__cover {
+    align-items: flex-end;
+    background-image: $cover-img;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: cover;
+    border-radius: 24px;
+    display: flex;
+    height: 408px;
+    justify-content: flex-end;
+    width: auto;
+  }
+
+  &__button {
+    background-color: $primitive-primary-600;
+    border-radius: 16px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    padding: $spacing-md $spacing-lg;
+
+    &Container {
+      background-color: #ffffff;
+      border-radius: 24px 0 0 0;
+      display: flex;
+      padding: $spacing-md 0 0 $spacing-md;
+      position: relative;
+
+      &:before {
+        border-bottom-right-radius: 50%;
+        box-shadow: $spacing-lg 0 0 0 #ffffff;
+        content: '';
+        height: 48px;
+        position: absolute;
+        right: 0;
+        top: -48px;
+        width: 48px;
+      }
+
+      &:after {
+        border-bottom-right-radius: 50%;
+        bottom: 0px;
+        box-shadow: 0 $spacing-lg 0 0 #ffffff;
+        content: '';
+        height: 48px;
+        left: -48px;
+        position: absolute;
+        width: 48px;
+      }
+    }
+  }
+}

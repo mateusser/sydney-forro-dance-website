@@ -5,6 +5,7 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
+  padding: $spacing-xxs 0;
 
   &__menu {
     display: flex;
@@ -24,12 +25,12 @@
         > a {
           border-radius: 999px;
           align-items: center;
-          color: $primitive-complementary-400;
           display: flex;
           padding: $spacing-xs $spacing-lg $spacing-xs $spacing-lg;
 
           > span {
             align-items: center;
+            color: $primitive-complementary-400;
             display: flex;
           }
 
@@ -40,7 +41,7 @@
 
           &:hover {
             background-color: $primitive-complementary-300;
-            text-decoration: none;
+            text-decoration: none !important;
           }
         }
       }
