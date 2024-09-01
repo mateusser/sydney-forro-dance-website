@@ -1,0 +1,33 @@
+@import '../../styles/colors';
+@import '../../styles/spacing';
+
+.Card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 4px 4px 4px 0px #00000033;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: $spacing-xl $spacing-lg;
+  width: 315px;
+
+  &__title {
+    border-bottom: 1px solid $primitive-gray-500;
+    color: $primitive-gray-900;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    line-height: 20.8px;
+    padding-bottom: $spacing-xs;
+  }
+
+  &__content {
+    color: $primitive-gray-700;
+    font-family: Poppins;
+    font-size: 16px;
+    letter-spacing: -0.01em;
+    line-height: 24px;
+    padding-top: $spacing-xs;
+    text-align: left;
+  }
+}

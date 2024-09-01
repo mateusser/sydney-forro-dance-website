@@ -1,14 +1,13 @@
 @import '../../styles/colors';
 @import '../../styles/spacing';
 
-$cover-img: url('../../assets/Hero/Cover.jpg');
+$cover-img: url('../../assets/Hero/hero_cover.jpg');
 
 .Hero {
   align-items: stretch;
   display: flex;
   flex-flow: column;
   justify-content: flex-start;
-  padding: $spacing-lg 0;
   gap: $spacing-xl;
 
   &__title {
@@ -27,12 +26,10 @@ $cover-img: url('../../assets/Hero/Cover.jpg');
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-size: cover;
     border-radius: 24px;
     display: flex;
     height: 408px;
     justify-content: flex-end;
-    width: auto;
   }
 
   &__button {

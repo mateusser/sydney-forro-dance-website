@@ -1,4 +1,4 @@
-export type valueType = {
+export type ValueProps = {
   icon: string
   text: string
 }

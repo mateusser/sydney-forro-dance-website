@@ -2,13 +2,13 @@ import React from 'react'
 
 import Founders from '../Founders/Founders'
 import Value from '../Value/Value'
-import { valueType } from '../Value/types'
+import { ValueProps } from '../Value/types'
 
 import values from './values.json'
 import './styles.scss'
 
 const Hero = () => {
-  const valuesComponents = values.map(({ icon, text }: valueType, idx) => (
+  const valuesComponents = values.map(({ icon, text }: ValueProps, idx) => (
     <Value icon={icon} key={idx} text={text}></Value>
   ))
 

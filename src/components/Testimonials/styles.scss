@@ -1,0 +1,28 @@
+@import '../../styles/spacing';
+
+$cover-img: url('../../assets/Testimonials/testimonials_cover.jpg');
+
+.Testimonials {
+  background-image: $cover-img;
+  background-position: top 30% center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 24px;
+  box-shadow: 0px 4px 4px 0px #0000001a;
+  display: flex;
+  overflow: clip;
+  position: relative;
+
+  &__container {
+    backdrop-filter: blur(7.5px);
+    border-radius: 24px;
+    height: 100%;
+    padding: 108px $spacing-xxl 68px;
+    width: 100%;
+  }
+
+  &__list {
+    display: flex;
+    gap: $spacing-md;
+  }
+}
