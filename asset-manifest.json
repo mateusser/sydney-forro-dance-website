@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/sydney-forro-dance-website/static/css/main.4cc243cd.css",
-    "main.js": "/sydney-forro-dance-website/static/js/main.cb238189.js",
+    "main.css": "/sydney-forro-dance-website/static/css/main.2d5b6dd2.css",
+    "main.js": "/sydney-forro-dance-website/static/js/main.41836f87.js",
     "static/js/453.eb0191d7.chunk.js": "/sydney-forro-dance-website/static/js/453.eb0191d7.chunk.js",
+    "static/media/Cover.jpg": "/sydney-forro-dance-website/static/media/Cover.7a2e8be52b615bdb0ede.jpg",
     "static/media/SFD-logo.png": "/sydney-forro-dance-website/static/media/SFD-logo.262ea3c983a957a01b38.png",
     "index.html": "/sydney-forro-dance-website/index.html",
-    "main.4cc243cd.css.map": "/sydney-forro-dance-website/static/css/main.4cc243cd.css.map",
-    "main.cb238189.js.map": "/sydney-forro-dance-website/static/js/main.cb238189.js.map",
+    "main.2d5b6dd2.css.map": "/sydney-forro-dance-website/static/css/main.2d5b6dd2.css.map",
+    "main.41836f87.js.map": "/sydney-forro-dance-website/static/js/main.41836f87.js.map",
     "453.eb0191d7.chunk.js.map": "/sydney-forro-dance-website/static/js/453.eb0191d7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4cc243cd.css",
-    "static/js/main.cb238189.js"
+    "static/css/main.2d5b6dd2.css",
+    "static/js/main.41836f87.js"
   ]
 }
